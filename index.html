@@ -3,18 +3,31 @@
     <head>
         <meta charset="UTF-8">
         <title>My First Project</title>
-
+        <link rel="stylesheet" href="index-style.css">
     </head>
+    
     <body>
-        <h1>Odin Recipes</h1>
-        <p><h2>My favorite Thai food</h2></p>
-        <img src="recipes/images/Thai-food" alt="Thai Food" style="width:700px;height:600px;">
-        <div>
-            <ul>
-                <li><a href="recipes/Pad-Kra-Pao.html">Pad Kra Pao</a></li>
-                <li><a href="recipes/Papaya-salad.html">Papaya salad</a></li>
-                <li><a href="recipes/Panang-Curry-Pork.html">Panang curry pork</a></li>
-            </ul>
+        <div class="recipes">
+            <div class="top">
+                <h1 class="eiei-01">Odin Recipes</h1>
+                <img class="logo" src="recipes/images/logo" alt="logo-RO">
+            </div>
+                    <div class="top-head">
+                        <h2>My favorite Thai food</h2>
+                        <p class="para-1">The Bestest Food</p>
+                    </div>
+                        <div class="recipes-link">
+                            <img class="food" src="recipes/images/Thai-food" alt="Thai Food">
+                            <div class="layer-2">
+                                <h1 class="game">Give it a try</h1>
+                                <p class="gamep">These 3 rercipes are the most famous and diverse Thai dishes known for their rich flavors</p>
+                                    <button type="button" class="link-1" onclick="location.href='recipes/Pad-Kra-Pao.html'">Pad Kra Pao</button>
+
+                                    <button type="button" class="link-2" onclick="location.href='recipes/Papaya-salad.html'">Papaya salad</button>
+
+                                    <button type="button" class="link-3" onclick="location.href='recipes/Panang-Curry-Pork.html'">Panang curry pork</button>
+                            </div>
+                        </div>
         </div>
     </body>
 </html>
