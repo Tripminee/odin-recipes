@@ -87,10 +87,6 @@ h2 {
     color: white;
     top: 30%;
     font-size: 62px;
-    text-align: ;
-    transfor: translate(-27.9%, -400px);
-    widt: 100%;
-    padding-top: 0;
 }
 
 .gamep {
@@ -99,13 +95,8 @@ h2 {
     top: 50%;
     color: white;
     line-height: 1.5;
-    to: 50%;
-    lef: -10%;
-    transfor: translate(0px, 0px);
 }
 .link-1 {
-    display: ;
-    flex-wrap: ;
     font-size: 15px;
     font-weight: bold;
     border: 0;
@@ -121,8 +112,6 @@ h2 {
 }
 
 .link-2 {
-    display: flex;
-    flex-wrap: wrap;
     font-size: 15px;
     font-weight: bold;
     border: 0;
